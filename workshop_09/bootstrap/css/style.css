@@ -1,0 +1,63 @@
+body{
+    
+}
+
+.blue{
+    background-color: deepskyblue;
+    height: 50px;
+}
+
+.green{
+    background-color: springgreen;
+    height: 150px;
+    
+}.orange{
+    background-color: orange;
+    height: 100px
+}
+
+.grey{
+    background-color: grey;
+    height: 50px
+}
+
+/* sm */
+@media (min-width:576px){
+    body{
+        background-color: red;
+    }
+    
+}
+
+/* md */
+@media (min-width:768px){
+    body{
+        background-color: green;
+        
+    }
+    .grey{
+        height: 100px;
+    }
+}
+
+/* lg */
+@media (min-width:922px){
+    body{
+        background-color: orange;
+        
+    }
+    .grey{
+        height: 300px;
+    }
+}
+
+/* xl */
+@media (min-width:1200px){
+    body{
+        background-color: purple;
+        
+    }
+    .grey{
+        height: 500px;
+    }
+}
